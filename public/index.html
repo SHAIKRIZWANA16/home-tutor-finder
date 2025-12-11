@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Tutors Khammam - Direct Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>HomeTutors Khammam</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#subjects">Subjects</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Home Tutor</h1>
+            <p>Direct contact with experienced tutors in Khammam. No mediators, no commissions.</p>
+            <div class="filter-container">
+                <select id="classFilter">
+                    <option value="">Select Class</option>
+                    <option value="6">Class 6</option>
+                    <option value="7">Class 7</option>
+                    <option value="8">Class 8</option>
+                    <option value="9">Class 9</option>
+                    <option value="10">Class 10</option>
+                </select>
+                <select id="subjectFilter">
+                    <option value="">Select Subject</option>
+                    <option value="math">Mathematics</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                    <option value="social">Social Studies</option>
+                    <option value="telugu">Telugu</option>
+                </select>
+                <button id="filterBtn" class="cta-btn">Find Tutors</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="subjects" class="subjects-section">
+        <div class="container">
+            <h2>Available Subjects</h2>
+            <div class="subjects-grid">
+                <div class="subject-card math" data-subject="math">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Mathematics</h3>
+                    <p>Classes 6-10</p>
+                </div>
+                <div class="subject-card science" data-subject="science">
+                    <i class="fas fa-flask"></i>
+                    <h3>Science</h3>
+                    <p>Classes 6-10</p>
+                </div>
+                <div class="subject-card english" data-subject="english">
+                    <i class="fas fa-book-open"></i>
+                    <h3>English</h3>
+                    <p>Classes 6-10</p>
+                </div>
+                <div class="subject-card social" data-subject="social">
+                    <i class="fas fa-globe"></i>
+                    <h3>Social Studies</h3>
+                    <p>Classes 6-10</p>
+                </div>
+                <div class="subject-card telugu" data-subject="telugu">
+                    <i class="fas fa-language"></i>
+                    <h3>Telugu</h3>
+                    <p>Classes 6-10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tutors" class="tutors-section">
+        <div class="container">
+            <h2>Our Expert Tutors</h2>
+            <div class="tutors-grid" id="tutorsGrid"></div>
+            <p id="noResultsMsg" class="no-results" style="display:none;">
+                No tutors found for this combination. Try another class or subject.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Quick Contact</h2>
+            <p>Call <strong>9441234567</strong> for immediate tutor assistance in Khammam.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 HomeTutors Khammam. Serving Rotary Nagar, Wyra Road, and all areas. Direct tutor connections only.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
