@@ -174,6 +174,7 @@ Response: JSON array of tutor objects from MySQL.
 
 ## 📸 Screenshots
 ### Home page 
-![home page](screenshots/home.png)
+![home page](screenshots/home.png/<img width="1440" height="900" alt="Screenshot 2025-12-29 at 22 58 34" src="https://github.com/user-attachments/assets/7894a58b-f9f8-439f-96c5-8135bf77f8e4" />
+)
 
 
