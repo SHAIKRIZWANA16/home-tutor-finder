@@ -190,5 +190,6 @@ screenshots/home.png/<img width="1440" height="900" alt="Screenshot 2025-12-29 a
 
 <img width="1440" height="900" alt="Screenshot 2025-12-29 at 22 59 46" src="https://github.com/user-attachments/assets/1ffd8682-2062-4b45-abbd-85d0586da120" />
 
-
+## 👩‍💻 Author
+Rizwana Shaik
 
